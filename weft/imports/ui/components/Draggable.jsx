@@ -4,7 +4,7 @@ export default class Draggable extends Component {
     render() {
         return (
             <div>
-                Hello!
+                {this.props.children}
             </div>
         );
     }
